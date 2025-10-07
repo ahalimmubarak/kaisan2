@@ -1,29 +1,23 @@
 export default function Home() {
   return (
-    <div className="flex flex-col text-center py-20">
-      <div className="text-center space-y-0">
+    <div className="container mx-auto max-w-xl py-20">
+      <div className="text-center space-y-4">
         <h1 className="text-xl">
           Dijual Laptop
         </h1>
-        <h2 className="text-2xl font-bold">
+        <h2 className="text-4xl font-bold">
           Macbook Air 11 inch
         </h2>
-        <ul className="flex flex-col justify-center text-left mx-20 sm:mx-40 lg:mx-90 px-2 py-6">
-          <h3 className="text-center mb-2">Cocok bagi:</h3>
-          <li>
-            - kamu yang lagi cari laptop buat kuliah
-          </li>
-          <li>
-            - kamu yang minjem laptop temen
-          </li>
-          <li>
-            - kamu yang lagi ngerjain tugas kuliah
-          </li>
+        <h3 className="text-center mb-2 font-semibold">Cocok bagi kamu yang:</h3>
+        <ul className="list-disc text-left flex flex-col items-center justify-center">
+          <li>Lagi cari laptop buat kuliah</li>
+          <li>Minjem laptop temen</li>
+          <li>Lagi ngerjain tugas kuliah</li>
         </ul>
         <h1 className="text-xl mt-4">
           Harga:
         </h1>
-        <h2 className="mt-4 text-4xl font-bold text-red-700 mx-20 sm:mx-30 lg:mx-80 px-2 py-6 bg-white border-4 border-gray-300 rounded-full shadow-lg">
+        <h2 className="text-4xl font-bold text-white bg-red-600 border border-red-700 rounded-lg shadow-xl mx-10 p-4">
           Rp. 1.999.000,-
         </h2>
         <p className="mt-4">
@@ -77,7 +71,7 @@ export default function Home() {
         <p>
           Bisa cek sepuasnya!!
         </p>
-        <p className="mt-4 mx-4 sm:mx-30 lg:mx-80 px-6">
+        <p className="px-6">
           Hubungi: <a href="http://wa.me/6285267092405" className="underline text-blue-500">Penjual</a>
         </p>
       </div>
