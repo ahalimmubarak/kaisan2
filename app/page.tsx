@@ -69,7 +69,8 @@ export default function Home() {
 
         {/* harga nego */}
         <h4 className="text-2xl font-bold">Harga Nego:</h4>
-        <h2 className="text-4xl font-bold text-white bg-red-600 border-2 dark:border-4 border-red-700 dark:border-red-900 rounded-lg shadow-xl mx-10 p-4">Rp. 2.100.000,-</h2>
+        <h2 className="text-lg line-through dark:text-white mx-10">Rp. 2.999.000,-</h2>
+        <h2 className="text-2xl font-bold text-white bg-red-600 border-2 dark:border-4 border-red-700 dark:border-red-900 rounded-lg shadow-xl mx-10 px-4 py-3">Rp. 2.500.000,-</h2>
         <div className="pt-4 text-center">
           {/* tombol buka modal */}
           <button className="btn dark:bg-blue-600 rounded-lg border-2 dark:border-4 border-gray-900 dark:border-blue-900" onClick={openModal1}>
@@ -82,9 +83,9 @@ export default function Home() {
             id="my_modal_5"
             className="modal modal-bottom sm:modal-middle"
           >
-            <div className="modal-box dark:bg-gray-800 dark:border-4 dark:border-gray-700">
+            <div className="modal-box dark:bg-gray-800">
               <h3 className="font-bold text-lg mb-4">Hubungi WhatsApp!</h3>
-              <p>Dapatkan penawaran terbaik: <a href="http://wa.me/6285267092405" className="underline text-blue-500">0852-6709-2405</a></p>
+              <p>Dapatkan penawaran terbaik: <a href="http://wa.me/6288275797471" className="underline text-blue-500">+62-882-7579-7471</a></p>
               <div className="modal-action">
                 <form method="dialog">
                   <button className="btn dark:bg-blue-600 rounded-lg border-2 dark:border-4 border-gray-900 dark:border-blue-900">Close</button>
@@ -222,9 +223,9 @@ export default function Home() {
           id="my_modal_6"
           className="modal modal-bottom sm:modal-middle"
         >
-          <div className="modal-box dark:bg-gray-800 dark:border-4 dark:border-gray-700">
+          <div className="modal-box dark:bg-gray-800">
             <h3 className="font-bold text-lg mb-4">Atur Jadwal Cek Barang!</h3>
-            <p>Hubungi via WhatsApp: <a href="http://wa.me/6285267092405" className="underline text-blue-500">0852-6709-2405</a></p>
+            <p>Hubungi via WhatsApp: <a href="http://wa.me/6288275797471" className="underline text-blue-500">+62-882-7579-7471</a></p>
             <div className="modal-action">
               <form method="dialog">
                 <button className="btn dark:bg-blue-600 rounded-lg border-2 dark:border-4 border-gray-900 dark:border-blue-900">Close</button>
