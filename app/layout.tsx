@@ -16,7 +16,7 @@ export const metadata: Metadata = {
   title: "Jual Laptop/Macbook Air Second",
   description: "Dijual untuk yang membutuhkan",
     icons: {
-    icon: "/nextjs1.png",
+    icon: "/faviconnn.ico",
   },
 };
 
@@ -27,9 +27,6 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <head>
-        <link rel="icon" href="/logoipsum-282.png" type="image/x-icon" />
-      </head>
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
